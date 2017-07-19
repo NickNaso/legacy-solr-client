@@ -1,0 +1,48 @@
+{
+    "name": "legacy-solr-client",
+    "description": "Node.js client for legacy version of Apache Solr",
+    "version": "1.0.0",
+    "contributors": [
+        {
+            "name": "Nicola Del Gobbo",
+            "email": "nicoladelgobbo@gmail.com"
+        },
+        {
+            "name": "Mauro Doganieri",
+            "email": "mauro.doganieri@gmail.com"
+        }
+    ],
+    "keywords": [
+        "solr",
+        "legacy",
+        "client",
+        "search",
+        "search-engine"
+    ],
+    "license": "Apache-2.0",
+    "scripts": {
+        "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__tests__/jasmine.json"
+    },
+    "engines": {
+        "node": ">= 4.0.0"
+    },
+    "gypfile": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NickNaso/legacy-solr-client.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NickNaso/legacy-solr-client/issues"
+    },
+    "homepage": "http://www.nacios.it/",
+    "dependencies": {},
+    "devDependencies": {},
+    "main": "./index.js",
+    "files": [
+        "LICENSE",
+        "README.md",
+        "CHANGELOG.md",
+        "index.js",
+        "lib/"
+    ]
+}
